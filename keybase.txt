@@ -1,0 +1,138 @@
+==================================================================
+https://keybase.io/erichansander
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://erichansander.com
+  * I am erichansander (https://keybase.io/erichansander) on keybase.
+  * I have a public key ASB_ChaXn-_lpqCgQngQyraGA6LA3SLvs-pe_rYhabHvfAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101ac9d699f030acf2d14d907c752ebcb457f39b0390381d00505b70564311007050a",
+      "host": "keybase.io",
+      "kid": "01207f0a16979fefe5a6a0a0427810cab68603a2c0dd22efb3ea5efeb62169b1ef7c0a",
+      "uid": "3d78ca5c33f55d9130a4c481e52ea400",
+      "username": "erichansander"
+    },
+    "merkle_root": {
+      "ctime": 1533474266,
+      "hash": "5b68a083ab339d6380f4c8eab48ad18b59e3027e9cf3c99f03e98e4e19b13ab23f592d92e663c7a10fe3cd0b526d61c4c92742146bc906a33e60f5ed03e90843",
+      "hash_meta": "3ea1a2fc92bcc4fd16afa4b5aabf6bfc3e73d101a6e34db0a365b18e720e3fbf",
+      "seqno": 3410082
+    },
+    "service": {
+      "entropy": "wlFPQKKdLlaCLquvqG7TOFSR",
+      "hostname": "erichansander.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.3.0"
+  },
+  "ctime": 1533474293,
+  "expire_in": 504576000,
+  "prev": "7bbf9f7231101c9dc35a70877b09800640f837877a2d457d2f96814ce98fcda3",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgfwoWl5/v5aagoEJ4EMq2hgOiwN0i77PqXv62IWmx73wKp3BheWxvYWTESpcCEMQge7+fcjEQHJ3DWnCHewmABkD4N4d6LUV9L5aBTOmPzaPEINH1xgBT8kFuckGYafn9P8OPdnnmO1Vl5PIiwZbmXdfvAgHCo3NpZ8RA4eQAKy1RKdw2jy5r+k+KJXxdVImV9jxM2flb6MNurVifk1zyANQGycr+uZa2QGWJuKHGNJxQz89ZCEavYpLOD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIP94GQK2cJyJq2efyK+E9TZhJznIGjTWWWFc+xd1PLWSo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/erichansander
+
+==================================================================
+==================================================================
+https://keybase.io/erichansander
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://erichansander.com
+  * I am erichansander (https://keybase.io/erichansander) on keybase.
+  * I have a public key with fingerprint 4A55 7ECC ADBF FBB6 E7EA  D570 0952 5867 FC0E 66A6
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.2"
+        },
+        "key": {
+            "fingerprint": "4a557eccadbffbb6e7ead57009525867fc0e66a6",
+            "host": "keybase.io",
+            "key_id": "09525867FC0E66A6",
+            "uid": "3d78ca5c33f55d9130a4c481e52ea400",
+            "username": "erichansander"
+        },
+        "merkle_root": {
+            "ctime": 1411882300,
+            "hash": "ec70a74fb9864a3934539f9878ebf750da574eccfbd3432c2f8c806675813b517a5e2602cca99fe18a36b40f2b96a3a3c12cf6d6bd534a5c3391be3509455d13",
+            "seqno": 63987
+        },
+        "service": {
+            "hostname": "erichansander.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411882363,
+    "expire_in": 157680000,
+    "prev": "3bc0a9dc58242157270eb0bcb79d23262beb960820d37276a8f63927c48f7522",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFtkntQFVUcxy+gOKLEIxRIZXSVdADvnD37BksRsAaRgSKiQplzds/C8th72XtB
+iPBOCRWN3WqI0VACA8pymMqmDDFRExUfNPQaFQofldBMKCMzjC9ol6HpMf23O7/v
+7/v7fb6/82agn83XZ+4TOfn3HlDf9zk7gm1ZK5uqqijsUCqp+CpKLtaI7ra+dFRC
+qHiqiFRi5CJ2zbFUdyjEXuhaOqOJo8qJ4dIcuqkCdsEOqeo4S241q5qeTwynoVle
+FIs4TiCyjBSsqhjzRCBI4QQAJA5yIi+oMiA8j3jTssDhcv9rKjXtmacp1pQZ/YYk
+kMLziZa+bLrAKIIoI05mGJXjFIlmAGJlVqQJBwliAbCELmLMIBFDkwuQ7kK6Qgxr
+6RJiFBWTPMPhmCaX3Zqlo1maFkXIAGCuhVwFVqcsACSwKpZEnkWMxLAcI6mSKIgE
+qwIHFMQJrAmqYoVhGShDVZRFwPMCJ9IM5mgBcQTyAJpRSJJKaBExPGaBCrHEIwYx
+Mg1llVd4rHAMO80j0ZgwHJBYk4tmTA4XKdUdVDzPmFOrrV+jXJOJtbYV3f8R2mVH
+idnoNBxuh+woNssFbrcz3gJ3V37htPRbCc6bccrDmq6Y1/vneWlT+p9QeCaOIhVO
+zSB5mqXgBF4EwIrKaZBy6yRYBkhSZE6ELDTLUAAEAyxjQVIgA3mIiQkNRAgUxizy
+SFRNJiiYZzOThPBvVNbcE+Wbli4tX0fuMoNQ1XW+i2fZfHxt/rN9rfdrC5gb/Nej
+XnsqaKpqyo/UJPzi9/pwX88K3BvueUk6Qzd+OLir71Luol5PR8wVT2XU8iPrdvdW
+xvStOFLxoCf56vqhpIN8brhtDB6bSD6/MTNlZ3tKDzdWdHxgYDR23lvbg6+xIXGF
+1VrpXv33EO5u7R8Lo1sbl3lLVt46pvv0NYaE0QEdLUnZr92ffAV69e77UTg++G7R
+NpB62xZUy62LSa3rf/6RjaGJoDC7ZXKwGvKRVYp/9/jZ9PqQR8vb6p/FAzmHP94d
+UrMZRZ9qrXW+/dGFo0v49Zt+W9qx5rnG2KyLnhAxbl+u6In3er9hllymUjOdzYe+
+Ck4KLj1/Ivzw2NDGspttJ/Ijt3vv7Opyd0V3PpVzbz/VU9dy9PN0/6jT15mvr8a6
+mxrmZHiWx7atahq+cv2DBV8eN8LfpcOP3jo7fnBi2UPv5NwI6PyxEK7+djRhcEd/
+yoa1ofNfjqia0119YNW6N5JP3rjQMK+5JsI7PP/kw5M46qdI296sWWkBQXH95xb4
+Hhpu7160Zfx04unm2lZf+7bVFasWr7nZM9I0pZa0d2eGBj32CX1tZ2fE1cfv+Pud
+b/tu4md5ikgvBK4ZT017j7/9afZFKTaMXGoIW3L5s5wtCYGZexY+8+sP5yK9Pfah
+3ugDB/bvAfWj918dy8nYt2lHY8VIysSTKerT7tl1aZs7OwS09XLGi+d2tzAw/fuu
+zWf+BA==
+=MWbO
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/erichansander
+
+==================================================================
