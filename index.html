@@ -1,164 +1,203 @@
-<!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
-<head>
-  <meta charset="utf-8" />
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>Eric Hansander</title>
-  <meta name="author" content="Eric Hansander" />
-  <meta name="description" content="Eric Hansander" />
-  <meta name="keywords" content="Eric Hansander, ehdr" />
+    <title>Eric Hansander</title>
+    <meta name="description" content="Eric Hansander's point." />
 
-  <link rel="canonical" href="https://erichansander.com/" />
+    <link rel="canonical" href="https://erichansander.com/" />
 
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="MobileOptimized" content="320" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="theme-color"
+      content="#fff"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#161616"
+      media="(prefers-color-scheme: dark)"
+    />
 
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <link rel="shortcut icon" sizes="196x196" href="/images/ehdrspoint-196x196.png" />
-  <link rel="apple-touch-icon-precomposed" href="/images/ehdrspoint-w-152x152.png" />
-  <meta name="msapplication-TileImage" content="/images/ehdrspoint-144x144.png" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" type="image/svg+xml" href="/images/ehdrspoint.svg" />
+    <link rel="apple-touch-icon" href="/images/ehdrspoint-w-180x180.png" />
 
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Eric Hansander" />
-  <meta property="og:url" content="https://erichansander.com/" />
-  <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Eric Hansander" />
+    <meta property="og:url" content="https://erichansander.com/" />
+    <meta property="og:description" content="Eric Hansander's point." />
 
-  <meta property="og:description" content="Eric Hansander" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "dateCreated": "2009-12-28T08:45:42+01:00",
+        "mainEntity": {
+          "@type": "Person",
+          "name": "Eric Hansander",
+          "email": "hello@erichansander.com",
+          "url": "https://erichansander.com/",
+          "sameAs": [
+            "https://github.com/ehdr",
+            "https://linkedin.com/in/erichansander",
+            "https://x.com/erichansander"
+          ]
+        }
+      }
+    </script>
 
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Eric Hansander" />
-  <meta name="twitter:url" content="https://erichansander.com/" />
+    <style>
+      html {
+        -webkit-text-size-adjust: 100%;
+        background: #fff;
+        color: #3f3f3f;
+        color-scheme: light dark;
+        font-family: "Avenir Next", ui-sans-serif, system-ui, sans-serif;
+        font-size: clamp(1.1rem, 0.6rem + 2.5vw, 1.4rem);
+        overflow-wrap: anywhere;
+      }
 
-  <meta name="twitter:description" content="Eric Hansander" />
-  <meta name="twitter:creator" content="@erichansander" />
+      body,
+      h1,
+      p {
+        margin: 0;
+      }
 
-  <script type="application/ld+json">
-  {"@context":"http://schema.org","@type":"WebSite","name":"Eric Hansander","author":{"@type":"Person","name":"Eric Hansander"},"description":"Eric Hansander","url":"https://erichansander.com/"}
-  </script>
+      a {
+        -webkit-box-decoration-break: clone;
+        border-radius: 0.15em;
+        box-decoration-break: clone;
+        color: inherit;
+        margin-inline: -0.25em;
+        padding: 0.25em;
+        text-decoration: none;
+      }
 
-  <style>
-* { border: 0; box-sizing: border-box; margin: 0; padding: 0; }
-html { overflow-y: scroll; }
+      span {
+        text-decoration-thickness: max(1px, 0.06em);
+        text-underline-offset: 0.15em;
+      }
 
-body {
-  background: #fff;
-  color: #3f3f3f;
-  font-family: "Avenir Next", Sans-Serif;
-  font-size: 130%;
-  word-break: break-all;
-}
+      wbr + span {
+        display: inline-block;
+      }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+      a:focus span,
+      a:active span {
+        text-decoration-line: underline;
+      }
 
-#wrap {
-  margin: 10% auto auto auto;
-  max-height: 320px;
-  max-width: 480px;
-  padding: 1em 1.5em;
-}
+      @media (hover: hover) {
+        a:hover span {
+          text-decoration-line: underline;
+        }
+      }
 
-li { list-style: none; }
-li.elsewhere { float: left; }
+      main {
+        inline-size: fit-content;
+        margin-inline: auto;
+        padding-block: calc(min(20vh, 30vw) + 1em) 1em;
+        padding-inline: 1.5em;
+      }
 
-.heading {
-  font-size: 1.6em;
-  line-height: 1em;
-}
+      address {
+        font-style: normal;
+      }
 
-.elsewhere {
-  color: #007f7f;
-  margin-top: 1em;
-}
+      .vh {
+        -webkit-clip-path: inset(50%);
+        -webkit-user-select: none;
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        user-select: none;
+        white-space: nowrap;
+        width: 1px;
+      }
 
-@media only screen and (max-aspect-ratio: 1/1) {
-  #wrap { margin-top: 30%; }
-}
+      p:first-child {
+        font-size: 1.6em;
+        letter-spacing: -0.01em;
+        line-height: 1.15;
+        margin-block-end: 0.75em;
+      }
 
-@media only screen and (max-width: 479px) {
-  body { font-size: 115%; }
-  #email span { display: block; }
-}
+      p + p {
+        margin-block-start: 0.5em;
+      }
 
-@media only screen and (max-width: 360px) {
-  body { font-size: 100%; }
-}
+      svg {
+        block-size: 0.86em;
+        fill: currentColor;
+        inline-size: 0.86em;
+        margin-inline-end: 0.5em;
+        vertical-align: -0.08em;
+      }
 
-/* Fontello fonts */
-@font-face {
-  font-family: 'fontello';
-  src: url('font/fontello.eot?77937857');
-  src: url('font/fontello.eot?77937857#iefix') format('embedded-opentype'),
-       url('font/fontello.woff2?77937857') format('woff2'),
-       url('font/fontello.woff?77937857') format('woff'),
-       url('font/fontello.ttf?77937857') format('truetype'),
-       url('font/fontello.svg?77937857#fontello') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+      @media screen and (prefers-color-scheme: dark) {
+        html {
+          background: #161616;
+          color: #e0e0e0;
+        }
+      }
+    </style>
+  </head>
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: .2em;
-  text-align: center;
-
-  /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
-  text-transform: none;
-
-  /* Font smoothing. That was taken from TWBS */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-key:before { content: '\e800'; }
-.icon-twitter:before { content: '\f099'; }
-.icon-github-circled:before { content: '\f09b'; }
-.icon-linkedin-squared:before { content: '\f30c'; }
-  </style>
-</head>
-<body>
-
-  <div id="wrap">
-    <ul>
-      <li id="email" class="heading">
-        <a href="mailto:hello@erichansander.com" title="Email: hello@erichansander.com">
-          <span>hello</span><span>@erichansander.com</span>
-        </a>
-      </li>
-      <li id="keybase" class="elsewhere">
-        <a href="https://keybase.io/erichansander" rel="me" title="Keybase: erichansander">
-          <i class="icon-key"></i>
-        </a>
-      </li>
-      <li id="twitter" class="elsewhere">
-        <a href="https://twitter.com/erichansander" rel="me" title="Twitter: @erichansander">
-          <i class="icon-twitter"></i>
-        </a>
-      </li>
-      <li id="github" class="elsewhere">
-        <a href="https://github.com/ehdr" rel="me" title="GitHub: ehdr">
-          <i class="icon-github-circled"></i>
-        </a>
-      </li>
-      <li id="linkedin" class="elsewhere">
-        <a href="https://linkedin.com/in/erichansander" rel="me" title="LinkedIn: Eric Hansander">
-          <i class="icon-linkedin-squared"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
-
-</body>
+  <body>
+    <main>
+      <h1 class="vh">Eric Hansander</h1>
+      <address translate="no">
+        <p>
+          <a href="mailto:hello@erichansander.com"
+            ><span>hello</span><wbr /><span>@erichansander<wbr />.com</span></a
+          >
+        </p>
+        <p>
+          <a href="https://github.com/ehdr" rel="me"
+            ><svg
+              width="16"
+              height="16"
+              viewBox="0 -10 857 857"
+              aria-hidden="true"
+            >
+              <path
+                d="M429 0q116 0 215 58t156 156 57 215q0 140-82 252t-211 155q-15 3-22-4t-7-17v-118q0-54-29-79 32-3 57-10t53-22 45-37 30-58 11-84q0-67-44-115 21-51-4-114-16-5-46 6t-51 25l-21 13q-52-15-107-15t-108 15q-8-6-23-15t-47-22-47-7q-25 63-5 114-44 48-44 115 0 47 12 83t29 59 45 37 52 22 57 10q-21 20-27 58-12 5-25 8t-32 3-36-12-31-35q-11-18-27-29t-28-14l-11-1q-12 0-16 2t-3 7 5 8 7 6l4 3q12 6 24 21t18 29l6 13q7 21 24 34t37 17 39 3 31-1l13-3 1 80q0 10-8 17t-22 4q-129-43-211-155t-82-252q0-117 58-215t155-156 216-58z"
+              /></svg
+            ><span class="vh">GitHub: </span><span>ehdr</span></a
+          >
+        </p>
+        <p>
+          <a href="https://linkedin.com/in/erichansander" rel="me"
+            ><svg
+              width="16"
+              height="16"
+              viewBox="-35 -35 927 927"
+              aria-hidden="true"
+            >
+              <path
+                d="M132 718h129v-387h-129zm138-507q-1-29-21-48t-51-19-53 19-21 48q0 29 20 48t52 19q33 0 53-19t21-48zm326 507h129v-222q0-86-41-130t-107-44q-76 0-116 65v-56h-129v387h129v-217q0-21 4-31 8-19 25-33t41-14q65 0 65 88zm261-557v536q0 66-47 113t-114 48h-535q-67 0-114-48t-47-113v-536q0-66 47-113t114-48h535q67 0 114 48t47 113z"
+              /></svg
+            ><span class="vh">LinkedIn: </span><span>erichansander</span></a
+          >
+        </p>
+        <p>
+          <a href="https://x.com/erichansander" rel="me"
+            ><svg
+              width="16"
+              height="16"
+              viewBox="0 0 857 857"
+              aria-hidden="true"
+            >
+              <path
+                d="M675 42h131L519 370l338 446H593L385 546 148 816H17l307-351L0 42h271l187 247zm-46 696h73L231 116h-78z"
+              /></svg
+            ><span class="vh">X: </span><span>erichansander</span></a
+          >
+        </p>
+      </address>
+    </main>
+  </body>
 </html>
